@@ -1,0 +1,42 @@
+.div-class {
+    background-color: rgb(136, 72, 72);
+}
+
+.div-class h1 {
+    font-size: 18px;
+}
+
+/* All the p tags within the div-class need to be orange font and 16px. */
+
+.div-class p{
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+}
+
+#number-One {
+    color: red;
+}
+
+.container {
+    border: 2px solid blue;
+    /*Here we have the margin set on each side*/
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    
+    /*One-line 
+    declaration*/
+    /*margin: 50px 250px 200px 200px*/
+    
+    /* Here we can see this done with the padding*/
+    /* padding: tip right bottom left;*/
+    padding:20px 20px 20px 40px;
+    }
+    
+    p {
+        /* We can also modify the other parts of the box model, such as height and width*/
+        height: 40px;
+        background-color: blue;
+        color: white;
+    }
